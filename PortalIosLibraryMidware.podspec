@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     一些依赖library的library库
                    DESC
 
-  s.homepage     = "http://EXAMPLE/PortalIosLibraryMidware"
+  s.homepage     = "https://github.com/portal-io/portal-ios-library-midware"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -141,6 +141,8 @@ Pod::Spec.new do |s|
     cur.dependency 'YYModel'
     cur.dependency 'PortalIosLibrary/WVRCache'
     cur.dependency 'PortalIosLibrary/WVRAppContext'
+    # cur.dependency 'CocoaLumberjack'
+    # cur.framework = 'UIKit', 'Foundation'
   end
 
 end

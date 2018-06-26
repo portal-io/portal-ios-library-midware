@@ -8,8 +8,8 @@ target 'WVRBI' do
     
     pod 'UMengAnalytics-NO-IDFA'
     pod 'YYModel'
-    pod 'WVRCache'
-    pod 'WVRAppContext'
+    pod 'PortalIosLibrary/WVRCache'
+    pod 'PortalIosLibrary/WVRAppContext'
 
 end
 

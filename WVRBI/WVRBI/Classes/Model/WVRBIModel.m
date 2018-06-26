@@ -8,9 +8,9 @@
 
 #import "WVRBIModel.h"
 #import "WVRSQLiteManager.h"
-#import <WVRAppContext/WVRAppDebugDefine.h>
-#import <WVRAppContext/WVRAppModel.h>
-#import <WVRAppContext/WVRUserModel.h>
+#import "WVRAppDebugDefine.h"
+#import "WVRAppModel.h"
+#import "WVRUserModel.h"
 #import <CommonCrypto/CommonDigest.h>
 
 @implementation WVRBIModel

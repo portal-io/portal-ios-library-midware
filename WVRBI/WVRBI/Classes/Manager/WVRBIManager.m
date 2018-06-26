@@ -10,13 +10,13 @@
 #import "WVRBIManager.h"
 #import "WVRBIModel.h"
 #import "WVRSQLiteManager.h"
-#import <WVRAppContext/WVRAppConst.h>
-#import <WVRAppContext/WVRAppModel.h>
-#import <WVRAppContext/WVRUserModel.h>
-#import <WVRAppContext/NSArray+Extend.h>
-#import <WVRAppContext/NSString+Extend.h>
-#import <WVRAppContext/NSDictionary+Extension.h>
-#import <WVRAppContext/WVRAppDebugDefine.h>
+#import "WVRAppConst.h"
+#import "WVRAppModel.h"
+#import "WVRUserModel.h"
+#import "NSArray+Extend.h"
+#import "NSString+Extend.h"
+#import "NSDictionary+Extension.h"
+#import "WVRAppDebugDefine.h"
 #import <CommonCrypto/CommonDigest.h>
 
 #define BI_MD5_KEY @"eOfNyUQr1mBSb3ijDYh3GqVSq5lJZVeKJX81Us8ZyQcFPpDWOOK6Uu5WinKgHNJv"
