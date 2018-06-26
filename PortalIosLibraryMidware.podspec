@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosLibraryMidware"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "PortalIosLibraryMidware."
 
   # This description is used to generate tags and improve search results.
@@ -145,4 +145,15 @@ Pod::Spec.new do |s|
     # cur.framework = 'UIKit', 'Foundation'
   end
 
+  s.subspec 'WVRShare' do |cur|
+    cur.source_files = ['WVRShare/WVRShare/Classes/**/*']
+    
+    cur.dependency 'UMengUShare/UI',             '~> 6.4'
+    cur.dependency 'UMengUShare/Social/Sina',    '~> 6.4'
+    cur.dependency 'UMengUShare/Social/WeChat',  '~> 6.4'
+    cur.dependency 'UMengUShare/Social/QQ',      '~> 6.4'
+    cur.dependency 'PortalIosLibraryMidware/WVRBI'
+    cur.dependency 'PortalIosLibrary/WVRAppContext'
+    # cur.dependency 'PortalIosLibrary/WVRWidget'
+  end
 end
